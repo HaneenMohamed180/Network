@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(227, 222, 222);
+    width: 100vh;
+
+}
+.navitem{
+    font-weight: bold;
+}
+.signin{
+    border: 2px solid rgb(74, 74, 187);
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+.navsection{
+    margin-left: 50px;
+}
+.login{
+    background-color: rgb(74, 74, 187);
+    color: #f0f0f0;
+    font-weight: bold;
+
+}
+.logo{
+    font-weight: bold;
+    color: rgb(74, 74, 187);
+    font-size: 30px;
+}
+
+
+.sec1{
+    margin-left: 50px;
+}
+
+.title{
+    color: rgb(74, 74, 187);
+    font-size: 30px;
+    font-weight: bold;
+}
+.paragraph{
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+.img{
+    margin-top: 100px;
+    width: 90%;
+    height: 50%;
+    border-radius: 30px;
+}
+
+
+
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+.footer a {
+    color: #bbb;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+.footer a:hover {
+    color: white;
+}
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
